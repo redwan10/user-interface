@@ -218,14 +218,18 @@ form#article-form textarea {
 }
 
 /* Post Area */
-.pending-post-data,
+.single-pending-post,
 .single-posted-post {
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
-.pending-post-data h4 ,
+.pending-post-data h4,
 .posted-post-data h4{
 	color: #17a2b8;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+}
+.pending-post-data p,
+.posted-post-data p {
+	margin-bottom: 0;
 }
 
 .pending-post-data,
