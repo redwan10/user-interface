@@ -12,8 +12,7 @@
   <!-- All CSS Here-->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-  <link rel="stylesheet" href="assets/css/slick.css">
-  <link rel="stylesheet" href="assets/css/meanmenu.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
   <link rel="stylesheet" href="assets/css/default.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
@@ -30,7 +29,149 @@
     ******************************** -->
 
 
-    
+    <div class="user-options-area-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-3">
+            <!-- User Info Area -->
+            <div class="user-info-wrap">
+              <button class="edit btn btn-sm btn-info text-uppercase"><i class="fas fa-pencil-alt mr-2"></i>edit</button>
+              <div class="user-img">
+                <img src="assets/img/author-img.jpg" alt="Author">
+              </div>
+              <h4>Rasel Ahmed Joy</h4>
+              <div class="options">
+                <ul>
+                  <li><a href="#">All Post</a></li>
+                  <li><a href="#">Most Views</a></li>
+                  <li><a href="#">Total Views</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- User Info Area End -->
+          </div>
+          <div class="col-xl-7">
+            <div class="article-write-option-wrap">
+              <!-- Article Form -->
+              <form action="#" id="article-form" class="mb-60 bg-white p-4">
+                <textarea name="article" id="article" cols="30" rows="10" placeholder="Start Writing here"></textarea>
+                <div class="d-flex justify-content-between">
+                  <div class="form-option d-flex">
+                    <div class="photo-upload mr-3">
+                      <input type="file" name="file" id="file" multiple value="Browse">
+                      <button class="file-upload bg-secondary text-white">Add Photo</button>
+                    </div>
+                    <select name="categorey" id="categorey">
+                      <option>Categorey</option>
+                      <option value="categorey">Categorey 1</option>
+                      <option value="categorey">Categorey 2</option>
+                      <option value="categorey">Categorey 3</option>
+                      <option value="categorey">Categorey 4</option>
+                    </select>
+                  </div>
+                  <button type="submit" class="post-btn btn btn-md btn-primary text-right text-capitalize">post</button>
+                </div>
+              </form>
+              <!-- Article Form End -->
+              <!-- Pending Post Area -->
+              <div class="pending-post-area bg-white p-4 mb-5 text-right">
+                <div class="title text-left">
+                  <h3>Pending</h3>
+                </div>
+                <!-- Single Pending Post -->
+                <div class="single-pending-post d-flex">
+                  <div class="pending-post-data">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, optio?</p>
+                  </div>
+                  <div class="post-message">
+                    <span class="suggested">Suggest To Edit</span>
+                  </div>
+                </div>
+                <!-- Single Pending Post End -->
+                <!-- Single Pending Post -->
+                <div class="single-pending-post d-flex mb-5">
+                  <div class="pending-post-data">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, optio?</p>
+                  </div>
+                  <div class="post-message">
+                    <span class="suggested">Suggest To Edit</span>
+                  </div>
+                </div>
+                <!-- Single Pending Post End -->
+                <!-- Single Pending Post -->
+                <div class="single-pending-post d-flex">
+                  <div class="pending-post-data">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, optio?</p>
+                  </div>
+                  <div class="post-message">
+                    <span class="suggested">Suggest To Edit</span>
+                  </div>
+                </div>
+                <!-- Single Pending Post End -->
+                <button type="button" class="btn btn-primary btn-md"><i class="fas fa-pencil-alt mr-2"></i>Edit</button>
+              </div>
+              <!-- Pending Post Area end -->
+              <!-- Posted Post Area -->
+              <div class="posted-post-area bg-white p-4">
+                <!-- Title -->
+                <div class="title">
+                  <h3>Posted</h3>
+                </div>
+                <!-- Single Posted POst -->
+                <div class="single-posted-post d-flex">
+                  <div class="posted-post-data">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, optio?</p>
+                  </div>
+                  <div class="posted-post-message">
+                    <span class="suggested"><i class="far fa-eye mr-1"></i> 36</span>
+                  </div>
+                </div>
+                <!-- Single Posted POst End -->
+                <!-- Single Posted POst -->
+                <div class="single-posted-post d-flex">
+                  <div class="posted-post-data">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, optio?</p>
+                  </div>
+                  <div class="posted-post-message">
+                    <span class="suggested"><i class="far fa-eye mr-1"></i> 36</span>
+                  </div>
+                </div>
+                <!-- Single Posted POst End -->
+                <!-- Single Posted POst -->
+                <div class="single-posted-post d-flex">
+                  <div class="posted-post-data">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, optio?</p>
+                  </div>
+                  <div class="posted-post-message">
+                    <span class="suggested"><i class="far fa-eye mr-1"></i> 36</span>
+                  </div>
+                </div>
+                <!-- Single Posted POst End -->
+                <!-- Single Posted POst -->
+                <div class="single-posted-post d-flex">
+                  <div class="posted-post-data">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, optio?</p>
+                  </div>
+                  <div class="posted-post-message">
+                    <span class="suggested"><i class="far fa-eye mr-1"></i> 36</span>
+                  </div>
+                </div>
+                <!-- Single Posted POst End -->
+              </div>
+              <!-- Posted Post Area End -->
+            </div>
+          </div>
+          <div class="col-xl-2"></div>
+        </div>
+      </div>
+    </div>
    
 
 
@@ -45,9 +186,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- Plugins -->
-<script src="assets/js/slick.min.js"></script>
-<script src="assets/js/jquery.meanmenu.min.js"></script>
-<script src="assets/js/plugin.js"></script>
+<script src="assets/js/jquery.nice-select.min.js"></script>
 <!-- Custom JS -->
 <script src="assets/js/main.js"></script>
 
