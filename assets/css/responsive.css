@@ -21,10 +21,24 @@
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
-   
+    .post-btn {
+        width: 120px;
+        display: inline-block;
+        text-align: center !important;
+        height: 40px !important;
+        line-height: 25px !important;
+        margin-top: 15px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-   
+    .user-img {
+        width: 140px;
+        height: 140px;
+    }
+    .user-info-wrap h4 {
+        margin-top: 15px;
+        font-size: 16px;
+    }
 }
